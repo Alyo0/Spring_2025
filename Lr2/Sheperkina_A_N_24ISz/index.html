@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="images/x-icon" href="favicon/fav.ico">
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>TRAVELAND</title>
+    <style>
+        body {
+            background: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            margin: 0;
+        }
+        .recommend {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class='header'>
+        <div class='container'>
+            <div class='header-line'>
+                <div class='header-logo'>
+                    <img class='logo' src="logo.png" alt="Traveland Logo">
+                </div>
+
+                <div class='nav'>
+                    <a class='nav-item' href="tours/index.html">ТУРЫ</a>
+                    <a class='nav-item' href="countries/index.html">СТРАНЫ</a>
+                    <a class='nav-item' href="hotels/index.html">ОТЕЛИ</a>
+                    <a class='nav-item' href="favorites/index.html">ИЗБРАННОЕ</a>
+                </div>
+                <div class='lupa'>
+                    <a href="#">
+                        <img class='lupa-img' src="lupa.png" alt="" style="margin-top: 24px">
+                    </a>
+                
+                    <div class='registration'>
+                        <a href="formregist/index.html"><img src="regist.png" alt="" style="padding-left: 24px"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <main class="main">
+                <div class="slider" style="top: 25px;">
+                    <div class="slider__line">
+                        <img class="slider__img" src="tour1.png" alt="Tour 1">
+                        <img class="slider__img" src="tour2.png" alt="Tour 2">
+                        <img class="slider__img" src="tour3.png" alt="Tour 3">
+                    </div>
+                    <button class="slider__btn-prev"><img src="sp.png" alt=""></button>
+                    <button class="slider__btn-next"><img src="sn.png" alt=""></button>
+                </div>
+            </main> 
+
+            <script src="./index.js"></script>
+        </div>
+    </div>
+    
+    <div class='recommend-stroke'>
+        <h2 class='recommend' style="margin-top: 20px; margin-left: 24px;">Популярные направления</h2>
+    </div>
+    <div class='recommend-line'>
+        <img class='rec-item1' src="popular1.png" alt="">
+        <img class='rec-item2' src="popular2.png" alt="">
+        <img class='rec-item3' src="popular3.png" alt="">
+        <img class='rec-item4' src="popular4.png" alt="">
+    </div>
+</body>
+</html>
